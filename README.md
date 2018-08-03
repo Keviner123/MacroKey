@@ -7,6 +7,7 @@ a simple alternative to the StreamDeck.
 
 ## Prerequisites
 Python 3 
+
 Flask
 
 ## License
