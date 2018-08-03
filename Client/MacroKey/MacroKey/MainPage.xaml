@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MacroKey"
+             x:Class="MacroKey.MainPage"
+             BackgroundColor="Gray">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+            <Image x:Name="Button1" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button2" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button3" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button4" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button5" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+            <Image x:Name="Button6" ClassId="Button6" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button7" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button8" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button9" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button10" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+            <Image x:Name="Button11" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button12" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button13" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button14" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Button15" HeightRequest="100" WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Pressed" />
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

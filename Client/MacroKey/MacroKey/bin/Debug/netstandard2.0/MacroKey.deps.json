@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "7cb8b62b39d9dafe0dc46c128e29f873ebb2273f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "MacroKey/1.0.0": {
+        "dependencies": {
+          "LiveXAML": "2.1.36",
+          "NETStandard.Library": "2.0.1",
+          "Newtonsoft.Json": "11.0.2",
+          "RestSharp": "106.3.1",
+          "Xam.Plugins.Vibrate": "4.0.0.5",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "MacroKey.dll": {}
+        }
+      },
+      "LiveXAML/2.1.36": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Xam.Plugins.Vibrate/4.0.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Vibrate.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.1.0.637273": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MacroKey/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiveXAML/2.1.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hIbHF0Q5IpGm3mVjZTE21B0hgnB/gcYi06q6n4uxLcfYMDI93DvKrWJ35q+yniVPjOMGt4FmuW/yjn/YDDlNKA==",
+      "path": "livexaml/2.1.36",
+      "hashPath": "livexaml.2.1.36.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "RestSharp/106.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TmlN7SXjK52zzpQDTuzw7IH3XQ2Svtss/4zvQBKIgf74QIVxvlxoAqQYu1EhNQ1bMSBIQ4aK120BO7W+v8/kiQ==",
+      "path": "restsharp/106.3.1",
+      "hashPath": "restsharp.106.3.1.nupkg.sha512"
+    },
+    "Xam.Plugins.Vibrate/4.0.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N4VdnyKlSfGGhgLqtBWaBh8wEH0Vr0PJRZbIMenvc12410ZIrY8+bsz2NNN20iJdfo+hg4Wj/XnR/a/TKThTcw==",
+      "path": "xam.plugins.vibrate/4.0.0.5",
+      "hashPath": "xam.plugins.vibrate.4.0.0.5.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.1.0.637273": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
+      "path": "xamarin.forms/3.1.0.637273",
+      "hashPath": "xamarin.forms.3.1.0.637273.nupkg.sha512"
+    }
+  }
+}
