@@ -23,7 +23,6 @@ namespace MacroKey
         public List<Item> items { get; set; }
     }
 
-
     public partial class MainPage : ContentPage
     {
         public class MacroContainer
@@ -33,7 +32,7 @@ namespace MacroKey
             public string Type;
         }
 
-        public string ServerIP = "192.168.1.33:5000";
+        public string ServerIP;
         public string CurrentPage = "MainPage";
         public List<MacroContainer> CurrentPageMacros;
 

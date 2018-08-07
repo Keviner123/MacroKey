@@ -1,2 +1,2 @@
 android.app.Application
-com.companyname.MacroKey
+com.kevienr123.MacroKey
