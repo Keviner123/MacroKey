@@ -93,3 +93,16 @@ C:\Users\Keviner123\Documents\GitHub\MacroKey\Client\MacroKey\MacroKey\obj\Debug
 C:\Users\Keviner123\Documents\GitHub\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Keviner123\Documents\GitHub\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.dll
 C:\Users\Keviner123\Documents\GitHub\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.pdb
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\bin\Debug\netstandard2.0\MacroKey.deps.json
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\bin\Debug\netstandard2.0\MacroKey.dll
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\bin\Debug\netstandard2.0\MacroKey.pdb
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.csprojAssemblyReference.cache
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\SelectIP.xaml.g.cs
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.AssemblyInfo.cs
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.dll
+C:\Users\Kevin\Documents\MacroKey\Client\MacroKey\MacroKey\obj\Debug\netstandard2.0\MacroKey.pdb

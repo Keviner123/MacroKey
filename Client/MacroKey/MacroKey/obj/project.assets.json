@@ -454,23 +454,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Keviner123\\.nuget\\packages\\": {},
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj",
       "projectName": "MacroKey",
-      "projectPath": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj",
-      "packagesPath": "C:\\Users\\Keviner123\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey\\obj\\",
+      "projectPath": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Keviner123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

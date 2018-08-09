@@ -895,20 +895,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Keviner123\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey.Android\\MacroKey.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey.Android\\MacroKey.Android.csproj",
       "projectName": "MacroKey.Android",
-      "projectPath": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey.Android\\MacroKey.Android.csproj",
-      "packagesPath": "C:\\Users\\Keviner123\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey.Android\\obj\\",
+      "projectPath": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey.Android\\MacroKey.Android.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Keviner123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -921,8 +921,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj": {
-              "projectPath": "C:\\Users\\Keviner123\\Documents\\GitHub\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj"
+            "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj": {
+              "projectPath": "C:\\Users\\Kevin\\Documents\\MacroKey\\Client\\MacroKey\\MacroKey\\MacroKey.csproj"
             }
           }
         }

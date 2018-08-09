@@ -1,9 +1,10 @@
-FormsViewGroup
 MacroKey
+System.Runtime
+netstandard
+FormsViewGroup
 Newtonsoft.Json
 Plugin.Vibrate
 RestSharp
-System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -27,4 +28,3 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-netstandard

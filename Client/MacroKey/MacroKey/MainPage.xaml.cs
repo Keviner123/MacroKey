@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -183,7 +184,7 @@ namespace MacroKey
 
         private void Button_Pressed(object sender, EventArgs e)
         {
-            CrossVibrate.Current.Vibration(TimeSpan.FromMilliseconds(50));
+            //CrossVibrate.Current.Vibration(TimeSpan.FromMilliseconds(50));
 
             var ButtonSender = (Image)sender;
             MacroContainer Macro = CurrentPageMacros[(Int32.Parse(ButtonSender.ClassId) - 1)];
@@ -196,9 +197,18 @@ namespace MacroKey
             }
             else
             {
-                var client = new RestClient("http://" + ServerIP + "/macro/" + Macro.MacroID);
-                var request = new RestRequest(Method.GET);
-                IRestResponse response = client.Execute(request);
+                Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram,
+                ProtocolType.Udp);
+
+                IPAddress serverAddr = IPAddress.Parse("192.168.1.33");
+
+                IPEndPoint endPoint = new IPEndPoint(serverAddr, 10000);
+
+                string text = Macro.MacroID;
+                byte[] send_buffer = Encoding.ASCII.GetBytes(text);
+
+                sock.SendTo(send_buffer, endPoint);
+
 
             }
         }
