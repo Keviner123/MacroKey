@@ -1,0 +1,110 @@
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<center>
+	<canvas width="200" height="200" id="canvas"/></canvas>
+	</br>
+	<p>Caption:</p>
+	<input type="text" class="form-control" id="title" />
+	</br>
+	<p>Color:</p>
+	<input type="text" class="form-control" id="color" />
+	</br>	
+	<p>Image:</p>
+
+</body>
+
+<script>
+
+	var ctx = document.getElementById("canvas").getContext("2d");
+	document.getElementById('title').addEventListener('keyup', function () {
+		ctx.save();
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		ctx.fillRect(0, 0, canvas.width, canvas.height);
+		
+		//Button
+		ctx.fillStyle = document.getElementById('color').value;
+		ctx.font = "bold 30pt Calibri";
+		
+		//Caption
+		var stringTitle = document.getElementById('title').value;
+		var text_title = stringTitle;
+		roundRect(ctx, 0, 0, 200, 200, 20, true);
+		
+		ctx.fillStyle = "#fff";
+		ctx.strokeStyle = "#fff";
+		ctx.fillStyle = "black";
+		
+		//Image
+		var ImageLocation = document.getElementById('image').value;
+
+		var image = new Image();
+		image.src = ImageLocation;
+		
+
+		if(image.height < image.width){
+			var height = image.height/(image.width/170);
+			var width = 170
+		} else if (image.height > image.width) {
+			var height = 150 
+			var width = image.width/(image.height/170);
+		} else {
+			var width = 150;
+			var height = 150;
+		}
+
+
+		ctx.drawImage(image,(((170-width)/2)+15),(((150-height)/2)+10),width,height);
+		
+		
+		ctx.textAlign = "center";
+		ctx.textBaseline = "middle";
+		ctx.fillText(stringTitle, canvas.width / 2, 180);
+		
+		
+		ctx.restore();
+		ctx.fillStyle = "grey";
+	});
+	
+	function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+	  if (typeof stroke == 'undefined') {
+		stroke = true;
+	  }
+	  if (typeof radius === 'undefined') {
+		radius = 5;
+	  }
+	  if (typeof radius === 'number') {
+		radius = {tl: radius, tr: radius, br: radius, bl: radius};
+	  } else {
+		var defaultRadius = {tl: 0, tr: 0, br: 0, bl: 0};
+		for (var side in defaultRadius) {
+		  radius[side] = radius[side] || defaultRadius[side];
+		}
+	  }
+	  ctx.beginPath();
+	  ctx.moveTo(x + radius.tl, y);
+	  ctx.lineTo(x + width - radius.tr, y);
+	  ctx.quadraticCurveTo(x + width, y, x + width, y + radius.tr);
+	  ctx.lineTo(x + width, y + height - radius.br);
+	  ctx.quadraticCurveTo(x + width, y + height, x + width - radius.br, y + height);
+	  ctx.lineTo(x + radius.bl, y + height);
+	  ctx.quadraticCurveTo(x, y + height, x, y + height - radius.bl);
+	  ctx.lineTo(x, y + radius.tl);
+	  ctx.quadraticCurveTo(x, y, x + radius.tl, y);
+	  ctx.closePath();
+	  if (fill) {
+		ctx.fill();
+	  }
+	  if (stroke) {
+		ctx.stroke();
+	  }
+	
+	}
+</script>
