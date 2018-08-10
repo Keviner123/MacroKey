@@ -1,0 +1,67 @@
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+body {
+	background-color:grey;
+}
+</style>
+
+</head>
+<body>
+
+
+ <table border="0">
+  <tr>
+    <td> <img id="1" height="100" width="100"/> </td>
+    <td> <img id="2" height="100" width="100"/> </td>
+    <td> <img id="3" height="100" width="100"/> </td>
+    <td> <img id="4" height="100" width="100"/> </td>
+    <td> <img id="5" height="100" width="100"/> </td>
+  </tr>
+  <tr>
+    <td> <img id="6" height="100" width="100"/> </td>
+    <td> <img id="7" height="100" width="100"/> </td>
+    <td> <img id="8" height="100" width="100"/> </td>
+    <td> <img id="9" height="100" width="100"/> </td>
+    <td> <img id="10" height="100" width="100"/> </td>
+  </tr>
+  <tr>
+    <td> <img id="11" height="100" width="100"/> </td>
+    <td> <img id="12" height="100" width="100"/> </td>
+    <td> <img id="13" height="100" width="100"/> </td>
+    <td> <img id="14" height="100" width="100"/> </td>
+    <td> <img id="15" height="100" width="100"/> </td>
+  </tr>
+</table> 
+
+
+<input id='myTextbox1' type='text' style="width:500px;"/>
+
+
+<script>
+
+$('#myTextbox1').on('input', function() {
+
+
+	var obj = JSON.parse(document.getElementById("myTextbox1").value); 
+
+
+	var counter = 1;
+	for (i in obj.items) {
+		var x = "http://192.168.86.50:5000/Images/"+obj.items[i].Image
+		document.getElementById(counter).src=x
+		counter=counter+1;
+	} 
+
+
+});
+
+
+</script>
+
+
+
+
+</body>

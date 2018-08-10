@@ -1,4 +1,3 @@
-import pyautogui
 import os
 import socket
 from flask import Flask
@@ -12,5 +11,4 @@ def GetPage(PageID):
 	return(contents)
 
 if __name__ == "__main__":
-	app.run("192.168.1.33", port=5000, threaded=True)
-
+	app.run("192.168.86.50", port=5000, threaded=True)
