@@ -11,7 +11,6 @@ body {
 </head>
 <body>
 
-
  <table border="0">
   <tr>
     <td> <img id="1" height="100" width="100"/> </td>
@@ -39,29 +38,19 @@ body {
 
 <input id='myTextbox1' type='text' style="width:500px;"/>
 
-
 <script>
 
-$('#myTextbox1').on('input', function() {
-
-
-	var obj = JSON.parse(document.getElementById("myTextbox1").value); 
-
+$("#myTextbox1").on("change paste keyup", function() {
+	var obj = JSON.parse($(this).val()); 
 
 	var counter = 1;
 	for (i in obj.items) {
-		var x = "http://192.168.86.50:5000/Images/"+obj.items[i].Image
+		var x = "http://192.168.1.33:5000/Images/"+obj.items[i].Image
 		document.getElementById(counter).src=x
 		counter=counter+1;
 	} 
-
-
 });
 
-
 </script>
-
-
-
 
 </body>
